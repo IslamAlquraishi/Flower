@@ -33,7 +33,6 @@ header {
     right: 0;
     background: #fff;
     padding: 25px;
-    ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,7 +45,13 @@ header .logo {
     font-size: 50px;
     color: #333;
     font-weight: bolder;
-    transition: 1s;
+    transition: .2s;
+}
+
+@media (max-width: 540px) {
+    header .logo {
+        font-size: 30px;
+    }
 }
 
 header .logo:hover {
